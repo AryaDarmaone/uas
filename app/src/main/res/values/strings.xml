@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PostArticle</string>
+    <string name="form">Input Your Article</string>
+    <string name="masukkan_title">Input Title Is Here </string>
+    <string name="masukkan_body">Input Body Is Here</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="by_signing_" />
+    <!-- strings.xml -->
+    <string name="by_signing_">
+
+By signing up, you are agree with our Terms & Conditions
+</string>
+</resources>

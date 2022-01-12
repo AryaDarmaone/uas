@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="110dp"
+        android:paddingTop="150dp"
+        android:paddingRight="110dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-3dp"
+        android:text="PostCommentTodo"
+        android:textAlignment="center"
+        android:textColor="#FD9802"
+        android:textSize="26dp"
+        android:textStyle="bold|italic" />
+
+    <!-- By signing up, you are agree with our Terms & Conditions -->
+    <TextView
+        android:id="@+id/by_signing_"
+        android:layout_width="395dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/text"
+        android:layout_marginTop="357dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:text="@string/by_signing_"
+        android:textAppearance="@style/by_signing_" />
+
+
+</RelativeLayout>
